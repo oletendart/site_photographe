@@ -21,11 +21,18 @@ footer {
         
     }
 }
-/* Color different text in home */
+a {
+    text-decoration: none;
+}
+/* Color different text in main */
 .quote {
     color: #354025;
     font-size: 2.2rem;
     margin: 0;
+}
+.quotetwo {
+    color: #354025;
+    font-size: 2.1rem;
 }
 .author {
     font-size: 1.5rem;
@@ -34,6 +41,28 @@ footer {
     font-style: italic;
     margin-bottom: 0.5rem;
 }
+.titlepresentation {
+    font-size: 1.6rem;
+    color: #657346;
+    font-style: italic;
+}
 .presentation {
-    
+    font-size: 1.6rem;
+    color: #354025;
+}
+/* colo footer */
+.final {
+    font-size: 1.4rem;
+    color: #354025;
+}
+.arrowtop {
+    border: solid #354025;
+    width: 2rem;
+    height: 2rem;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  justify-self: center;
 }
