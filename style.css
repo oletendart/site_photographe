@@ -72,18 +72,50 @@ footer {
   justify-self: center;
 }
 
+.quotetwo {
+  grid-column: 3/12;
+}
+
 .author {
   grid-column: 9/11;
 }
 
-.presentation {
+.titlepresentation {
   grid-column: 3/8;
   justify-self: center;
+}
+
+.presentation {
+  grid-column: 3/8;
+  align-self: center;
 }
 
 .lerouxhead {
   grid-column: 9/12;
   justify-self: center;
+}
+
+/* footer */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(1rem, auto);
+}
+
+.facebookpicture {
+  grid-column: 6/7;
+}
+
+.twitterpicture {
+  grid-column: 7/8;
+}
+
+.arrowtop {
+  grid-column: 11/13;
+}
+
+.final {
+  grid-column: 6/11;
 }
 
 /* =========== Color the page Home ========= */
@@ -109,11 +141,20 @@ footer {
   list-style-type: none;
 }
 
-/* Color different text in home */
+a {
+  text-decoration: none;
+}
+
+/* Color different text in main */
 .quote {
   color: #354025;
   font-size: 2.2rem;
   margin: 0;
+}
+
+.quotetwo {
+  color: #354025;
+  font-size: 2.1rem;
 }
 
 .author {
@@ -124,15 +165,58 @@ footer {
   margin-bottom: 0.5rem;
 }
 
+.titlepresentation {
+  font-size: 1.6rem;
+  color: #657346;
+  font-style: italic;
+}
+
+.presentation {
+  font-size: 1.6rem;
+  color: #354025;
+}
+
+/* colo footer */
+.final {
+  font-size: 1.4rem;
+  color: #354025;
+}
+
+.arrowtop {
+  border: solid #354025;
+  width: 2rem;
+  height: 2rem;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  justify-self: center;
+}
+
 /* resize pictures */
 .picturebaby {
   width: 100%;
-  height: 50rem;
+  height: 47rem;
 }
 
 .headleroux {
   width: 20rem;
   height: 20rem;
+}
+
+.navtop {
+  width: 100%;
+}
+
+.facebook {
+  width: 5rem;
+  height: 5rem;
+}
+
+.twitter {
+  width: 5rem;
+  height: 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
