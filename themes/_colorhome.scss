@@ -23,6 +23,16 @@ footer {
 }
 a {
     text-decoration: none;
+    color: #354025;
+}
+a:hover {
+    color: #89837e;
+}
+a:active {
+    color: #354025;
+}
+a:visited {
+    color: #1d8637;
 }
 /* Color different text in main */
 .quote {
