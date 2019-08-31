@@ -1,3 +1,4 @@
+/* ================== Grid Basic ==================== */
 body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -23,4 +24,12 @@ footer {
 }
 .navtop {
     grid-column: 4 / 11 ;
+    align-self: center;
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        
+    }
 }
