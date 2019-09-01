@@ -39,10 +39,12 @@ a:visited {
     color: #354025;
     font-size: 2.2rem;
     margin: 0;
+    font-family: 'Courgette', cursive;
 }
 .quotetwo {
     color: #354025;
     font-size: 2.1rem;
+    font-family: 'Courgette', cursive;
 }
 .author {
     font-size: 1.5rem;
@@ -59,6 +61,12 @@ a:visited {
 .presentation {
     font-size: 1.6rem;
     color: #354025;
+}
+.presentation::first-letter {
+    font-size: 4rem;
+    font-style: bold;
+    color: #354025;
+    font-family: 'Courgette', cursive;
 }
 /* colo footer */
 .final {
