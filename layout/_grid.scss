@@ -86,3 +86,26 @@ footer {
 .final {
     grid-column: 6 / 11 ;
 }
+/* =============== Galerie page =============== */
+.create {
+    grid-column: 2 / 11;
+
+}
+.photoone {
+    grid-column: 4 / 6;
+}
+.phototwo {
+ grid-column: 6 / 8;
+}
+.photothree {
+    grid-column: 4 / 6;
+}
+.photofour {
+    grid-column: 6 / 8;
+}
+.photofive {
+    grid-column: 4 /6;
+}
+.photosix {
+    grid-column: 6 / 8;
+}
