@@ -109,15 +109,52 @@ footer {
   grid-column: 6/11;
 }
 
-/* Galerie page */
-.maingalerie {
+/* =============== Galerie page =============== */
+.pictures {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-auto-rows: minmax(1rem, auto);
 }
 
 .create {
-  grid-columns: 2/11;
+  grid-column: 1/9;
+}
+
+.photoone {
+  grid-column: 2/5;
+}
+
+.phototwo {
+  grid-column: 5/8;
+}
+
+.photothree {
+  grid-column: 2/5;
+}
+
+.photofour {
+  grid-column: 5/8;
+}
+
+.photofive {
+  grid-column: 2/5;
+}
+
+.photosix {
+  grid-column: 5/8;
+}
+
+/* =============== Galerie Page ============== */
+div {
+  grid-column: 5/10;
+}
+
+p {
+  grid-column: 6/10;
+}
+
+.camerapicture {
+  grid-column: 2/5;
 }
 
 /* =========== Color the page Home ========= */
@@ -135,7 +172,7 @@ footer {
 
 /* Color nav bar top */
 .navtop {
-  border: 2px solid #354025;
+  border: 0.2rem solid #354025;
   color: #354025;
   font-size: 1.7rem;
 }
@@ -218,6 +255,53 @@ a:visited {
   justify-self: center;
 }
 
+/* ============= Galerie page ==========  */
+.pictures img {
+  border: 0.2rem solid black;
+}
+
+.create {
+  font-size: 1.7rem;
+  color: #354025;
+  justify-self: center;
+}
+
+.create::first-letter {
+  font-size: 3rem;
+  font-family: "Courgette", cursive;
+}
+
+/* =============== Contact page ============= */
+div {
+  margin: 1rem;
+}
+
+fieldset {
+  border: 0.2rem dotted #354025;
+}
+
+form {
+  font-size: 1.5rem;
+  color: #354025;
+}
+
+.contactmail {
+  font-size: 2rem;
+  color: #354025;
+  font-style: italic;
+  align-self: center;
+}
+
+.contactmail::first-letter {
+  font-family: "Courgette", cursive;
+  font-size: 2.5rem;
+}
+
+.camera {
+  border: solid black 0.2rem;
+  box-shadow: 1rem 1rem 0.8rem #354025;
+}
+
 /* resize pictures */
 .picturebaby {
   width: 100%;
@@ -245,33 +329,39 @@ a:visited {
 
 /* ================ Galerie Page ================== */
 .photobebe {
-  width: 24rem;
-  height: 16rem;
+  width: 100%;
+  height: 100%;
 }
 
 .photo3 {
-  width: 24rem;
-  height: 16rem;
+  width: 100%;
+  height: 100%;
 }
 
 .photo5 {
-  width: 24rem;
-  height: 16rem;
+  width: 100%;
+  height: 100%;
 }
 
 .photo1 {
-  width: 24rem;
-  height: 16rem;
+  width: 100%;
+  height: 100%;
 }
 
 .photo2 {
-  width: 24rem;
-  height: 16rem;
+  width: 100%;
+  height: 100%;
 }
 
 .photo4 {
-  width: 24rem;
-  height: 16rem;
+  width: 100%;
+  height: 100%;
+}
+
+/* ==================== Contact page ============= */
+.camera {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
