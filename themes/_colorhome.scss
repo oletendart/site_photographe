@@ -9,10 +9,11 @@ main {
 footer {
     background-color: #A0BF80;
 }
+$base-color: #354025;
 
 /* Color nav bar top */ 
 .navtop {
-    border: 2px solid #354025;
+    border: .2rem solid #354025;
     color: #354025;
     font-size: 1.7rem;
     
@@ -51,7 +52,7 @@ a:visited {
     margin: 0;
     color: #354025;
     font-style: italic;
-    margin-bottom: 0.5rem;
+    margin-bottom: .5rem;
 }
 .titlepresentation {
     font-size: 1.6rem;
@@ -65,16 +66,16 @@ a:visited {
 .presentation::first-letter {
     font-size: 4rem;
     font-style: bold;
-    color: #354025;
+    color: $base-color;
     font-family: 'Courgette', cursive;
 }
 /* colo footer */
 .final {
     font-size: 1.4rem;
-    color: #354025;
+    color: $base-color;
 }
 .arrowtop {
-    border: solid #354025;
+    border: solid $base-color;
     width: 2rem;
     height: 2rem;
   border-width: 0 2px 2px 0;
@@ -83,4 +84,45 @@ a:visited {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   justify-self: center;
+}
+/* ============= Galerie page ==========  */
+.pictures {
+    img {
+        border: .2rem solid black;
+    }
+}
+.create {
+    font-size: 1.7rem;
+    color: $base-color;
+    justify-self: center;
+}
+.create::first-letter {
+    font-size: 3rem;
+    font-family: 'Courgette', cursive;
+}
+/* =============== Contact page ============= */
+div {
+    margin: 1rem;
+}
+fieldset {
+    border: .2rem dotted $base-color;
+}
+form {
+    font-size: 1.5rem;
+    color: $base-color;
+   
+}
+.contactmail {
+    font-size: 2rem;
+    color: $base-color;
+    font-style: italic;
+    align-self: center;
+}
+.contactmail::first-letter {
+    font-family: 'Courgette', cursive;
+    font-size: 2.5rem;
+}
+.camera {
+    border: solid black 0.2rem;
+    box-shadow: 1rem 1rem 0.8rem $base-color 
 }
