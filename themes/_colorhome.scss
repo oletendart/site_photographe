@@ -126,3 +126,14 @@ form {
     border: solid black 0.2rem;
     box-shadow: 1rem 1rem 0.8rem $base-color 
 }
+/* ========== Prestation page ============ */
+.prestation {
+    font-size: 2rem;
+    color: $base-color;
+    font-style: italic;
+    justify-self: center;
+}
+.prestation::first-letter {
+    font-family: 'Courgette', cursive;
+    font-size: 2.5rem;
+}
