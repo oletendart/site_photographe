@@ -1,6 +1,6 @@
 # Site Photographe 
 
-[](./pictures/photocouverture.png)
+[50% center](pictures/photocouverture.png)
 
 ### Technologies : 
 * Saas
