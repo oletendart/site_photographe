@@ -40,7 +40,6 @@ footer {
   grid-column: 4/11;
   align-self: center;
 }
-
 .navtop ul {
   display: flex;
   flex-direction: row;
@@ -194,7 +193,6 @@ footer {
   color: #354025;
   font-size: 1.7rem;
 }
-
 .navtop li {
   list-style-type: none;
 }
@@ -402,12 +400,4 @@ form {
   height: 100%;
 }
 
-/* ============= MEDIA QUERIES ============  */
-
-@media screen and (max-width: 767px) {
-    .babypicture {
-      display: none;
-    }
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=_media.scss.map */
